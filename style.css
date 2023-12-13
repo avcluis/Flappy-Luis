@@ -1,0 +1,96 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagenes/fotodefondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+.containerPadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+table thead p{
+    text-align: center;
+}
+
+
+canvas{
+    margin-top: 3%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagenes/background-night.png);
+    box-shadow: 3px 4px 8px black;
+    background-size: cover;
+}
+
+.derechos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    
+}
+
+table{
+    font-size: 150%;
+    background-color: rgb(25, 163, 25);
+    border-radius: 10px;
+    box-shadow: 3px 4px 8px black;
+}
+.nombre{
+    background-color: rgb(179, 247, 247);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 4px 8px black;
+}
+
+hr{
+    
+    color: black;
+    background-color: black;
+}
+
+
+table {
+    width: 100%;
+}
+
+/* th, td {
+    background-color: rgba(255, 0, 0, 0.664);
+} */
+
+td{
+    text-align: center;
+    background-color: rgb(25, 163, 25);
+}
+
+th {
+    background-color: rgb(134, 5, 5);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+

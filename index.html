@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="containerPadre">
+        <div class="container">
+            <img src="imagenes/flappyluis.png" alt="" width="200" height="200" />
+          <div class="cv">
+            <canvas id="miCanvas" width="400" height="600"></canvas>
+          </div>
+    
+          <div class="tabla">
+            <input
+              class="nombre"
+              type="text"
+              id="name"
+              name="nombre"
+              placeholder="*Nombre"
+            />
+            <br /><br /><br />
+    
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2">Ranking Local</th>
+                </tr>
+              </thead>
+              <tbody id="tablaScore">
+                <tr>
+                  <td>Score</td>
+                  <td>Usuario</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+    <audio id="golpeTubo" src="sonidos/golpe.mp3"></audio>
+    <audio id="saltoPajaro" src="sonidos/salto.mp3"></audio>
+    <audio
+      id="musicaFondo"
+      src="sonidos/kit-auto-fantastico-series-tv- (1).mp3"
+    ></audio>
+    <audio id="pasarTuberia" src="sonidos/flappy-bird-sms (1).mp3"></audio>
+    <audio id="aumentarVelocidad" src="sonidos/gta2.mp3"></audio>
+    <footer>
+      <p>&copy; Produced by Luis Avilés</p>
+    </footer>
+  </body>
+</html>
